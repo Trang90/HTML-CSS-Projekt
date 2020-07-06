@@ -1,0 +1,490 @@
+body {
+	margin:0;
+	font-family:'Roboto', Arial, Helvetica, san-serif;
+	font-size:14px;
+	color:white;
+	/* [disabled]background:white; */
+}
+
+a {color:black; text-decoration:none;}
+a:hover {}
+img {
+	max-width:100%;	
+	border:0;
+	vertical-align:middle;
+	}	
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.top-header{
+	width:100%;
+	background:#f4f4f4;
+	display:inline-block;
+	height:36px;
+	padding:10px 0;
+}
+.top-header .icon-instagram{color:#e74c3c;}
+
+.top-header .icon-facebook{color:#3b5998;}
+.top-header .icon-twitter{color:#1da1f2}
+.right-header {
+	float:right; 
+	color:black; 
+	font-size:13px; 
+}
+	
+.right-header a { color:#333; padding:0 5px;}	
+
+	
+.header {width:100%;
+	background:white;
+	display:inline-block;
+}
+
+.logo{
+	float:left;
+	padding-top:10px;
+}
+
+.container {
+	max-width:1170px;
+	margin:auto;
+	width:100%;
+        
+		height: 100%;
+}
+	
+.navi{
+	width:100%;
+	min-height:40px;
+	}	
+.navi ul{
+	margin:0;
+	padding:0;
+	}
+
+.navi .menu-top{
+	margin:10px;
+	padding:20px;	
+	float:left;
+}
+
+	
+.menu-top ul{
+	margin:0;
+	padding:0;
+}
+
+.navi .menu-top li{
+	float:left;
+	list-style:none;
+	position:relative;}
+	
+.navi .menu-top li a{
+	color:black;
+	font-size:20px;
+	padding:10px 15px;
+	display:block;
+	line-height:20px;}
+	
+.navi .menu-top li a:hover{ 
+	color:#F60;
+}
+
+.navi .menu-top li:hover{ 
+	background-color:#E8E8E8;
+}
+
+.navi .menu-top li:hover a{
+	color:#00535e;
+}	
+.sub-menu{
+	display:none;
+	width:240px;
+	background-color:#f4f4f4;
+	position:absolute;
+	z-index:99;
+	left:0;
+	top:40px;	
+}
+.sub-menu li{
+	width:100%;	
+}
+
+.navi .menu-top li:hover .sub-menu{
+	display:block;
+}
+
+	
+.head {
+	margin:70px 0;
+	font-size:40px;
+	text-transform:uppercase;
+	font-family: 'Dancing Script', cursive;
+	text-align:center;
+	}
+.heading{
+	margin: 0 auto 50px;
+	font-weight: 400;
+	font-size:20px;
+	text-align:center;}
+		
+.info, .photo{
+	float:left;
+	width:50%;
+	text-align:center;}
+
+.info:nth-child(odd){
+	padding-right:40px;}	
+
+.info:nth-child(even){
+	padding-left:40px;}		
+
+.col, .col-3, .col-4, .col-12, .col-6, .col-2{
+	float:left;
+	margin-left:15px;
+}
+
+.col-2{
+	width:20%;
+	}
+.col-3{
+	width:25%;
+	}
+
+.col-12{
+	width:100%;
+	margin:50px;
+	}
+.col-4{
+	
+	width:33.3333%;
+	}
+	
+.col-6{
+	width:50%;
+	}
+
+.col{
+	width:25%;
+	}
+	
+.slideshow-container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  
+}
+.mySlides img{
+  height: 550px;;
+  
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;}
+.column img{  height:150px;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}		
+
+.background{
+	background:url(../images/121499.jpg) no-repeat 50% 50%;  
+	background-color: rgba(0, 0, 0, 0);
+        background-size: auto;
+    	background-blend-mode: overlay;
+    	background-size: cover;
+		float:left;
+		width:100%;
+		background-color: #d2691e;}
+
+.footer{
+	width:100%;
+	float:left;
+}
+.footer-head{
+	width:100%;
+	float:left;
+	background:#6897b5;
+	height:53px;}
+	
+.home	{
+	float:left;}
+	
+.home a{color:white; font-size:15px; line-height:50px;}	
+.circle {
+  padding: 2px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  width:40px;
+  height:40px;
+  display:inline-block;
+  line-height:40px;
+}
+.circle:before{
+	line-height:35px;
+}
+.circle:hover {
+  opacity: 0.7;
+}		
+.footer-detail-center {float:left; margin-left: 150px; width:30%;}	
+.footer-detail-center .circle {width:30px; height:30px;font-size:15px;}
+.footer-detail-center .circle:before{line-height:28px;}
+.footer-detail-center .text {color:white; font-weight:700;}
+.footer-detail-center .icon-youtube  {background-color:#ed1c24;color: white;}	
+.footer-detail-center a{color:white;}
+
+.social-medien{    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.social-medien-site {
+    display: flex;
+    flex-direction: row;
+    align-items: center;}
+.social-medien > div {
+	width:50%;
+  text-align: center;
+  font-size: 14px;}
+  
+.social-medien-site > div {    padding-right: 15px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+} 
+.social-medien-site .icon-facebook {background-color:#3b5a9a; color: white;}
+.social-medien-site .icon-twitter  {background-color:#29a9e1;color: white;}
+.social-medien-site .icon-instagram {background-color:#f56040;color: white;}
+.social-medien-site .icon-youtube {background-color:#FF0000;color: white;}
+.icon-home {
+	height:20px;
+	width:20px;
+	color: white;
+	display:inline-block;
+	margin-right:10px;
+	text-align:center;}
+.icon-home:before{line-height:19px;}
+
+	
+.footer-detail {
+	width:100%;
+	float:left; 
+	background-color:#6897b5;
+	 }
+.footer-detail-left {
+	float:left;
+	width:25%;
+	min-height:317px;
+}
+.footer-detail-left .text{color:white;}
+
+.footer-detail-right ul{
+	margin:0;
+	padding:0;
+}
+.footer-detail-right li {
+    width: 100%;
+    float: left;
+    background: #6897b5;
+	line-height:2;}
+.footer-detail-right{
+	float:right;
+	color:#6897b5; 
+	width:25%;}
+.footer-detail-right a{
+	color:white;
+	padding:0 10px; 
+	font-size:14px;}
+
+.footer-detail-right li:first-child {padding-bottom:5px;}
+.footer-detail-right li:first-child a{font-size:15px; color:white; font-weight:bold; }
+
+
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  height:50px;
+  
+}
+
+
+input[type=submit] {
+  background-color: #004165;
+  color: white;
+  border: none;
+  width: 100%;
+  font-size: 16px;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+.icon-backtop {
+	position:fixed;
+	bottom:80px;
+	right:60px;
+	background:url(../images/back-top.png) no-repeat 0 0;
+	height:43px;
+	width:43px;
+	z-index:999;
+	}
+	
+	
+.button-mobile {
+	display:none;
+	float:left;
+	border:0;
+	background-color:transparent;
+	cursor:pointer;
+	color:#ff6600;
+	font-size:30px;
+	margin-top:27px;
+	margin-right:10px;}	
+
+
+	
+	
+@media only screen and (min-width: 768px) and (max-width: 970px) { 
+.banner{display:none;}
+.container {padding:0 10px;}
+
+
+
+}
+/*mobile*/	
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+.button-mobile {display:block;}
+.container {padding:0 10px;}
+.navi {
+	display:none;
+	background-color:silver;
+	position:absolute;
+	z-index:10;
+	left:0;
+	top:115px;
+	width:100%;}
+
+.banner{display:none;}
+.logo {padding:30px 0;}		
+.navi .menu-top li{width:100%;}	
+.sub-menu{
+	display:inline-block;
+	position:relative;
+	background-color:#cccccc;
+	z-index:0;
+	left:auto;
+	top:auto;
+	width:240px;}
+
+.list {
+    float: left;
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(../images/flock-of-birds-under-blue-and-white-sky-1018478.jpg) no-repeat center center;
+        background-size: auto, auto;
+    background-size: cover;
+    height: 380px;
+    position: relative;}
+	
+.col-4, .col-2{width:100%;}
+.col-2{display:none;}
+.lis{margin-right:15px;}
+
+.footer-detail-left {
+    width: 100%;
+    min-height: auto;
+	padding-bottom:30px;
+}
+.footer-detail-center {
+    width: 100%;
+	margin-left:15px;
+	margin-bottom:30px;
+}
+.footer-detail-right{float:left; width:100%;}
+.footer-detail-right li {
+    float: left;
+    background: #6897b5;
+    line-height: 2;
+	width:auto;
+	
+}
+@media only screen and (min-width: 320px) and (max-width: 340px) {
+.logo {width:180px;}	
+}
