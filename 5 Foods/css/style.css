@@ -142,34 +142,16 @@ img {
 .info:nth-child(even){
 	padding-left:40px;}		
 
-.col, .col-3, .col-4, .col-12, .col-6, .col-2{
-	float:left;
-	margin-left:15px;
+.row{
+	margin-right:-10px;
+	margin-left:-10px;
 }
-
-.col-2{
-	width:20%;
-	}
-.col-3{
-	width:25%;
-	}
-
 .col-12{
+	float:left;
 	width:100%;
-	margin:50px;
-	}
-.col-4{
-	
-	width:33.3333%;
-	}
-	
-.col-6{
-	width:50%;
+	margin:50px 0;
 	}
 
-.col{
-	width:25%;
-	}
 	
 .slideshow-container {
   position: relative;
@@ -426,8 +408,23 @@ input[type=submit]:hover {
 .banner{display:none;}
 .container {padding:0 10px;}
 
-
-
+.footer-detail-left {
+    width: 100%;
+    min-height: auto;
+	padding-bottom:30px;
+}
+.footer-detail-center {
+    width: 100%;
+	margin-left:15px;
+	margin-bottom:30px;
+}
+.footer-detail-right{float:left; width:100%;}
+.footer-detail-right li {
+    float: left;
+    background: #6897b5;
+    line-height: 2;
+	width:auto;}
+.info, .photo {padding: 15px;}
 }
 /*mobile*/	
 @media only screen and (min-width: 320px) and (max-width: 767px) {
@@ -455,17 +452,6 @@ input[type=submit]:hover {
 	top:auto;
 	width:240px;}
 
-.list {
-    float: left;
-    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(../images/flock-of-birds-under-blue-and-white-sky-1018478.jpg) no-repeat center center;
-        background-size: auto, auto;
-    background-size: cover;
-    height: 380px;
-    position: relative;}
-	
-.col-4, .col-2{width:100%;}
-.col-2{display:none;}
-.lis{margin-right:15px;}
 
 .footer-detail-left {
     width: 100%;
@@ -482,9 +468,20 @@ input[type=submit]:hover {
     float: left;
     background: #6897b5;
     line-height: 2;
-	width:auto;
-	
+	width:auto;}
+.mySlides img {
+    height: 250px;
+}	
+
+.info, .photo {width:100%;  text-align:justify; padding: 15px;}
+.info:nth-child(2n) {
+    padding: 10px;
+}
+.info:nth-child(2n+1) {
+    padding-right: 10px;
+}
 }
 @media only screen and (min-width: 320px) and (max-width: 340px) {
 .logo {width:180px;}	
+
 }

@@ -370,7 +370,23 @@ input[type=submit]:hover {
 @media only screen and (min-width: 768px) and (max-width: 970px) { 
 .banner{display:none;}
 .container {padding:0 10px;}
-
+.intro {padding:10px;}
+.footer-detail-left {
+    width: 100%;
+    min-height: auto;
+	padding-bottom:30px;
+}
+.footer-detail-center {
+    width: 100%;
+	margin-left:15px;
+	margin-bottom:30px;
+}
+.footer-detail-right{float:left; width:100%;}
+.footer-detail-right li {
+    float: left;
+    background: #6897b5;
+    line-height: 2;
+	width:auto;}
 }
 /*mobile*/	
 @media only screen and (min-width: 320px) and (max-width: 767px) {
@@ -397,6 +413,25 @@ input[type=submit]:hover {
 	left:auto;
 	top:auto;
 	width:240px;}
+.box-left{width:100%; margin:10px 0 0 0;}
+.box-right{display:none;}
+.box-left .info {padding:10px;}
+.footer-detail-left {
+    width: 100%;
+    min-height: auto;
+	padding-bottom:30px;
+}
+.footer-detail-center {
+    width: 100%;
+	margin-left:15px;
+	margin-bottom:30px;
+}
+.footer-detail-right{float:left; width:100%;}
+.footer-detail-right li {
+    float: left;
+    background: #6897b5;
+    line-height: 2;
+	width:auto;}
 }
 @media only screen and (min-width: 320px) and (max-width: 340px) {
 .logo {width:180px;}	

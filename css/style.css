@@ -384,7 +384,24 @@ input[type=submit]:hover {
 .banner{display:none;}
 .container {padding:0 10px;}
 
-
+.footer-detail-left {
+    width: 100%;
+    min-height: auto;
+	padding-bottom:30px;
+}
+.footer-detail-center {
+    width: 100%;
+	margin-left:15px;
+	margin-bottom:30px;
+}
+.footer-detail-right{float:left; width:100%;}
+.footer-detail-right li {
+    float: left;
+    background: #6897b5;
+    line-height: 2;
+	width:auto;
+	
+}
 
 }
 /*mobile*/	

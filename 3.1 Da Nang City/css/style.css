@@ -180,7 +180,15 @@ float:left;}
 .box-left {
     float: left;
     width: 70%;
+	margin-top:20px;
 }
+
+.box-right {
+    float: right;
+    width: 25%;
+	margin-top:20px;
+}
+
 .info {
 	margin: 0;
 	padding: 0;
@@ -340,10 +348,7 @@ float:left;}
 .hover-shadow:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.box-right {
-    float: right;
-    width: 25%;
-}
+
 .footer{
 	width:100%;
 	float:left;
@@ -549,7 +554,25 @@ input[type=submit]:hover {
 .banner{display:none;}
 .container {padding:0 10px;}
 
-
+.footer-detail-left {
+    width: 100%;
+    min-height: auto;
+	padding-bottom:30px;
+}
+.footer-detail-center {
+    width: 100%;
+	margin-left:15px;
+	margin-bottom:30px;
+}
+.footer-detail-right{float:left; width:100%;}
+.footer-detail-right li {
+    float: left;
+    background: #6897b5;
+    line-height: 2;
+	width:auto;
+	
+}
+.head {font-size:40px;}
 
 }
 /*mobile*/	
@@ -584,6 +607,7 @@ input[type=submit]:hover {
 .box-left{width:100%;}
 .box-right{display:none;}
 iframe {width:100%;}
+
 .footer-detail-left {
     width: 100%;
     min-height: auto;
@@ -601,6 +625,8 @@ iframe {width:100%;}
     line-height: 2;
 	width:auto;
 }
+.head-left {width:100%;
+		text-align:center;}
 }
 @media only screen and (min-width: 320px) and (max-width: 340px) {
 .logo {width:180px;}	

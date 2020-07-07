@@ -210,6 +210,7 @@ border-top: solid 2px #eef2f5;}
 .detail-1 .photo, .detail-3 .photo {
 	margin:30px auto;
 	padding:30px 0;
+	text-align:center;
 }
 .detail-1 .photo{
     width: 500px;
@@ -248,24 +249,36 @@ border-top: solid 2px #eef2f5;}
   font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 100%;
+  table-layout:fixed;
 }
 
 .detail-2 td, th {
   border: 1px solid #dddddd;
   text-align: left;
   padding: 8px;
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+  word-wrap: break-word;
 }
 .detail-2 td:first-child{width: 200px;}
 .detail-2 tr:nth-child(even) {
   background-color: #dddddd;
 }
-.detail-3 table{margin:0 auto; border-collapse: collapse;}	
+.detail-3 table{
+	margin:0 auto; 
+	border-collapse: 
+	collapse; 
+	table-layout:fixed;
+	}	
 .detail-3 table img{height:40px;}	
 .detail-3 td, th {
   width: 64px;
   height: 32px;
   border: 1px solid #ccc;
   text-align: center;
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+  word-wrap: break-word;
 }
 .detail-3 th {
   background: lightblue;
@@ -281,6 +294,9 @@ border-top: solid 2px #eef2f5;}
   border: 1px solid #ccc;
   text-align: center;
   margin-top:50px;
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+  word-wrap: break-word;
 }
 .multitable th {
   background: lightblue;
@@ -509,6 +525,29 @@ input[type=submit]:hover {
 .banner{display:none;}
 .container {padding:0 10px;}
 .box-left img{width:50%;}
+table {
+        overflow-x: auto;
+        display: block;
+    }
+.detail-1 .photo, .detail-3 .photo {width:100%;}	
+.footer-detail-left {
+    width: 100%;
+    min-height: auto;
+	padding-bottom:30px;
+}
+.footer-detail-center {
+    width: 100%;
+	margin-left:15px;
+	margin-bottom:30px;
+}
+.footer-detail-right{float:left; width:100%;}
+.footer-detail-right li {
+    float: left;
+    background: #6897b5;
+    line-height: 2;
+	width:auto;
+	
+}	
 }
 /*mobile*/	
 @media only screen and (min-width: 320px) and (max-width: 767px) {
@@ -564,7 +603,6 @@ input[type=submit]:hover {
     background: #6897b5;
     line-height: 2;
 	width:auto;
-	
 }
 .big-banner .head {display:none;}
 .box-left img{width:50%;}
@@ -572,11 +610,24 @@ input[type=submit]:hover {
 .box-right{display:none;}
 .heading{font-size:20px;}	
 .weekdays li, .days li {width: 13.1%;}
+.content{padding:0 10px;}
+/* horizontal scrollbar for tables if mobile screen */
+table {
+        overflow-x: auto;
+        display: block;
+    }
+.detail-1 .photo, .detail-3 .photo {width:100%;}	
 }
 @media only screen and (min-width: 320px) and (max-width: 340px) {
 .logo {width:180px;}	
 .big-banner .head {display:none;}
 .heading{font-size:20px;}
+.content{padding:0 10px;}
 .weekdays li, .days li {width: 12.5%;}
-  .days li .active {padding: 2px;}
+.days li .active {padding: 2px;}
+table {
+        overflow-x: auto;
+        display: block;
+    }
+.detail-1 .photo, .detail-3 .photo {width:100%;}	
 }

@@ -404,7 +404,24 @@ input[type=submit]:hover {
 .banner{display:none;}
 .container {padding:0 10px;}
 
-
+.footer-detail-left {
+    width: 100%;
+    min-height: auto;
+	padding-bottom:30px;
+}
+.footer-detail-center {
+    width: 100%;
+	margin-left:15px;
+	margin-bottom:30px;
+}
+.footer-detail-right{float:left; width:100%;}
+.footer-detail-right li {
+    float: left;
+    background: #6897b5;
+    line-height: 2;
+	width:auto;
+	
+}
 
 }
 /*mobile*/	
@@ -441,7 +458,7 @@ input[type=submit]:hover {
     height: 380px;
     position: relative;}
 .heading{font-size:20px;}
-.big-banner .head{font-size:50px;}
+.big-banner .head{font-size:38px; top:35%;}
 .middle{opacity:1;}
 	
 .col-4, .col-6{width:100%;}
@@ -470,4 +487,5 @@ input[type=submit]:hover {
 @media only screen and (min-width: 320px) and (max-width: 340px) {
 .logo {width:180px;}
 .col-4, .col-6{width:100%;}	
+.big-banner .head{font-size:38px; top:35%;}
 }
