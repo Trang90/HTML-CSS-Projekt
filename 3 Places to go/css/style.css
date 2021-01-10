@@ -316,7 +316,7 @@ img {
 	width:25%;}
 .footer-detail-right a{
 	color:white;
-	padding:0 10px; 
+	padding:0 15px; 
 	font-size:14px;}
 
 .footer-detail-right li:first-child {padding-bottom:5px;}
@@ -400,7 +400,7 @@ input[type=submit]:hover {
 
 .col-6:hover {background-color: #c40000;}	
 	
-@media only screen and (min-width: 768px) and (max-width: 970px) { 
+@media only screen and (min-width: 768px) and (max-width: 1024px) { 
 .banner{display:none;}
 .container {padding:0 10px;}
 
